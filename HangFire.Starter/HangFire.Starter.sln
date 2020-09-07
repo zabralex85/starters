@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangFire.Starter.Server", "HangFire.Starter.Server\HangFire.Starter.Server.csproj", "{66713C11-DD8F-4053-91ED-104D4E44F694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangFire.Starter.Objects", "HangFire.Starter.Objects\HangFire.Starter.Objects.csproj", "{B25473F7-1836-40A8-A4E4-581BEE067879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangFire.Starter.Objects.Interfaces", "HangFire.Starter.Objects.Interfaces\HangFire.Starter.Objects.Interfaces.csproj", "{BF1A9AB4-3089-4ADA-9CC7-3F77FFEEB64C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangFire.Starter.Server.SampleJob", "HangFire.Starter.Server.SampleJob\HangFire.Starter.Server.SampleJob.csproj", "{237FA872-EC19-4540-B672-5176FFA4F341}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configs", "Configs", "{BA3B95FC-5990-430C-A1B6-D91AC20FBAA9}"
+	ProjectSection(SolutionItems) = preProject
+		autofacConfig.json = autofacConfig.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A4AB7F42-E139-495B-9BDD-B52DBABE7285}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangFire.Starter.Server.Dependency", "HangFire.Starter.Server.Dependency\HangFire.Starter.Server.Dependency.csproj", "{6A3E930B-0092-4678-8388-8C290D722E53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jobs", "Jobs", "{DA36E05F-68A0-48FA-B7A7-46A47D4511B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JobsDependencies", "JobsDependencies", "{2A47FDF1-BFF8-4B21-B352-E2E68B954DA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangFire.Starter.Server.SecondarySampleJob", "HangFire.Starter.Server.SecondarySampleJob\HangFire.Starter.Server.SecondarySampleJob.csproj", "{D185E5E8-427E-496D-8F05-9312279AFAFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66713C11-DD8F-4053-91ED-104D4E44F694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66713C11-DD8F-4053-91ED-104D4E44F694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66713C11-DD8F-4053-91ED-104D4E44F694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66713C11-DD8F-4053-91ED-104D4E44F694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25473F7-1836-40A8-A4E4-581BEE067879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25473F7-1836-40A8-A4E4-581BEE067879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25473F7-1836-40A8-A4E4-581BEE067879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25473F7-1836-40A8-A4E4-581BEE067879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF1A9AB4-3089-4ADA-9CC7-3F77FFEEB64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1A9AB4-3089-4ADA-9CC7-3F77FFEEB64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1A9AB4-3089-4ADA-9CC7-3F77FFEEB64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1A9AB4-3089-4ADA-9CC7-3F77FFEEB64C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{237FA872-EC19-4540-B672-5176FFA4F341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237FA872-EC19-4540-B672-5176FFA4F341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237FA872-EC19-4540-B672-5176FFA4F341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237FA872-EC19-4540-B672-5176FFA4F341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3E930B-0092-4678-8388-8C290D722E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3E930B-0092-4678-8388-8C290D722E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3E930B-0092-4678-8388-8C290D722E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3E930B-0092-4678-8388-8C290D722E53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D185E5E8-427E-496D-8F05-9312279AFAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D185E5E8-427E-496D-8F05-9312279AFAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D185E5E8-427E-496D-8F05-9312279AFAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D185E5E8-427E-496D-8F05-9312279AFAFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B25473F7-1836-40A8-A4E4-581BEE067879} = {2A47FDF1-BFF8-4B21-B352-E2E68B954DA1}
+		{BF1A9AB4-3089-4ADA-9CC7-3F77FFEEB64C} = {2A47FDF1-BFF8-4B21-B352-E2E68B954DA1}
+		{237FA872-EC19-4540-B672-5176FFA4F341} = {DA36E05F-68A0-48FA-B7A7-46A47D4511B5}
+		{6A3E930B-0092-4678-8388-8C290D722E53} = {2A47FDF1-BFF8-4B21-B352-E2E68B954DA1}
+		{D185E5E8-427E-496D-8F05-9312279AFAFA} = {DA36E05F-68A0-48FA-B7A7-46A47D4511B5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5BEAB50-ACD5-4B6C-87FA-F365FB9A71E7}
+	EndGlobalSection
+EndGlobal

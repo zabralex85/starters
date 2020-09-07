@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackDriver.Magent.Core", "StackDriver.Magent.Core\StackDriver.Magent.Core.csproj", "{097539B0-D2B5-4639-9325-35CC22E235DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{097539B0-D2B5-4639-9325-35CC22E235DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097539B0-D2B5-4639-9325-35CC22E235DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097539B0-D2B5-4639-9325-35CC22E235DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097539B0-D2B5-4639-9325-35CC22E235DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89B050E3-7E9E-4CE3-B90F-9E30D92DC061}
+	EndGlobalSection
+EndGlobal

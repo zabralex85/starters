@@ -1,0 +1,26 @@
+{
+  "defaultAssembly": "StackDriver.Magent.Core",
+  "components": [
+    {
+      "type": "StackDriver.Magent.Core.Jobs.DisksFreeMetricAbsJob, StackDriver.Magent.Core",
+      "services": [
+        {
+          "type": "StackDriver.Magent.Core.Interfaces.IJob, StackDriver.Magent.Core"
+        }
+      ],
+      "instanceScope": "per-dependency",
+      "parameters": {
+        "id": 4,
+        "name": "Stackdriver.Magent.Core.Jobs.DisksFreeMetricAbsJob",
+        "startupMode": "Recurring",
+        "isAsync": false,
+        "timing": "Cron",
+        "timingInterval": "5 * * * * *",
+        "projectId": "engaged-truth-230123"
+      },
+      "autoActivate": false,
+      "ownership": "external",
+      "injectProperties": true
+    }
+  ]
+}

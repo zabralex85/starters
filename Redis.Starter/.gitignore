@@ -1,0 +1,14 @@
+/Redis.Starter.Interfaces/obj
+/Redis.Starter.Interfaces/bin
+/packages
+/Redis.Starter.Objects/obj
+/Redis.Starter.Objects/bin
+/Redis.Starter.Reciever/obj
+/Redis.Starter.Reciever/bin
+/Redis.Starter.Sender/obj
+/Redis.Starter.Sender/bin
+/Redis.Starter.WebApi/obj
+/Redis.Starter.WebApi/bin
+v15
+/.vs/config
+/Libs/csredis-master

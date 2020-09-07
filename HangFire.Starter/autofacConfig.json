@@ -1,0 +1,45 @@
+{
+  "defaultAssembly": "HangFire.Starter.Server",
+  "components": [
+    {
+      "type": "HangFire.Starter.Server.SampleJob.SampleJobRealization, HangFire.Starter.Server.SampleJob",
+      "services": [
+        {
+          "type": "HangFire.Starter.Objects.Interfaces.IJob, HangFire.Starter.Objects.Interfaces"
+        }
+      ],
+      "instanceScope": "per-dependency",
+      "parameters": {
+        "id": 1,
+        "name": "HangFire.Starter.Server.SampleJob",
+        "startupMode": "Recurring",
+        "isAsync": false,
+        "timing": "Minutly",
+        "timingInterval": 1
+      },
+      "autoActivate": false,
+      "ownership": "external",
+      "injectProperties": true
+    },
+    {
+      "type": "HangFire.Starter.Server.SecondarySampleJob.SecondarySampleJobRealization, HangFire.Starter.Server.SecondarySampleJob",
+      "services": [
+        {
+          "type": "HangFire.Starter.Objects.Interfaces.IJob, HangFire.Starter.Objects.Interfaces"
+        }
+      ],
+      "instanceScope": "per-dependency",
+      "parameters": {
+        "id": 2,
+        "name": "HangFire.Starter.Server.SecondarySampleJob",
+        "startupMode": "Recurring",
+        "isAsync": true,
+        "timing": "Minutly",
+        "timingInterval": 1
+      },
+      "autoActivate": false,
+      "ownership": "external",
+      "injectProperties": true
+    }
+  ]
+}

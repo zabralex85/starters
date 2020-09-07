@@ -1,0 +1,5 @@
+.vs
+bin
+obj
+/StackDriver.Magent/Config/gcloud.json
+gcloud.json
